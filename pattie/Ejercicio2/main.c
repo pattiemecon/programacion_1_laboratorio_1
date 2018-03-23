@@ -18,7 +18,7 @@ int main()
     printf("Ingrese sueldo: ");
     scanf("%f", &sueldo);
 
-    aumentoSueldo = sueldo * (porcentajeAumento / 100.0);
+    aumentoSueldo = sueldo * ((float)porcentajeAumento / 100);
     sueldoAumentado = sueldo + aumentoSueldo;
 
     printf("A - Nombre: %c\nB - Sueldo: %f\nC - Aumento de sueldo: %f\nD - Sueldo con aumento: %f\nE - Porcentaje: %d%%", nombre, sueldo, aumentoSueldo, sueldoAumentado, porcentajeAumento);
