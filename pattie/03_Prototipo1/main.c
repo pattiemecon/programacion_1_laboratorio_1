@@ -12,6 +12,13 @@ p4        |    S    |   N
 //Declaración o prototipo de la función
 //Qué hace la función, qué recibe y qué devuelve
 //tipo_de_dato_devuelto identificador_de_la_función (entrada1, entrada2, ..., entrada n)
+/** \brief --> Qué hace la función, por ejemplo "Permite sumar dos números enteros".
+ *
+ * \param --> Primer número a sumar
+ * \param --> Segundo número a sumar
+ * \return --> El resultado de la suma de los números
+ *
+ */
 int sumarNumeros (int, int);
 
 int main()
